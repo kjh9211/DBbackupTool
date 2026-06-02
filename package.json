@@ -1,0 +1,56 @@
+{
+  "name": "db-backup-tool",
+  "version": "1.0.0",
+  "description": "Node.js library for backing up MySQL, PostgreSQL, MongoDB, MSSQL, and SQLite databases",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "database",
+    "backup",
+    "mysql",
+    "postgresql",
+    "mongodb",
+    "mssql",
+    "sqlite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjh9211/DBbackupTool.git"
+  },
+  "homepage": "https://github.com/kjh9211/DBbackupTool#readme",
+  "bugs": {
+    "url": "https://github.com/kjh9211/DBbackupTool/issues"
+  },
+  "author": "kjh9211",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.9.7",
+    "node-cron": "^3.0.3",
+    "pg": "^8.11.5",
+    "sqlite3": "^6.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/mssql": "^9.1.5",
+    "@types/node": "^20.12.7",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.5",
+    "@types/sqlite3": "^3.1.11",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
