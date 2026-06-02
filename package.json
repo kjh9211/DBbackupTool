@@ -1,5 +1,5 @@
 {
-  "name": "db-backup-tool",
+  "name": "dbbackuptool",
   "version": "1.0.0",
   "description": "Node.js library for backing up MySQL, PostgreSQL, MongoDB, MSSQL, and SQLite databases",
   "main": "dist/index.js",
